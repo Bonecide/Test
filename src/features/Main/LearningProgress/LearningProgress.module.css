@@ -1,0 +1,45 @@
+.learningContainer {
+  width: 100%;
+  padding: 24px;
+  border: 1px solid #f3f3f3;
+  margin-top: 8px;
+  border-radius: 20px;
+}
+
+.course {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.courseTitle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.courseImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+  background: #ffe3dd;
+}
+.courseTitle h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.courseTitle p {
+  color: #87898f;
+  font-size: 14px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}

@@ -1,0 +1,14 @@
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.tab {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #ff7355;
+  border-bottom: 2px solid #ff7355;
+}

@@ -1,0 +1,27 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 16px;
+}
+
+.headerContainer h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.streak {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.streak p {
+  font-weight: 500;
+  font-size: 14px;
+}

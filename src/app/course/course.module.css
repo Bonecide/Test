@@ -1,0 +1,10 @@
+.back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.coursePage {
+    margin-top: 10px;
+}

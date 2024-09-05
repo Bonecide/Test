@@ -1,0 +1,24 @@
+.tabsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tabsContainer div {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 12px;
+  border-radius: 20px;
+  border: 1px solid #f3f3f3;
+  min-width: 160px;
+}
+
+.tabsContainer div p {
+  color: #000000de;
+  font-size: 16px;
+  font-weight: 500;
+}
